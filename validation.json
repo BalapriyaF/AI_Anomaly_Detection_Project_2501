@@ -1,0 +1,36 @@
+{
+  "USN": "1DA25SCS01",
+  "seed": 2501,
+  "rows": 7200,
+  "columns": [
+    "timestamp",
+    "hr",
+    "acc",
+    "label",
+    "anomaly_type"
+  ],
+  "resting_hr": 61,
+  "walking_periods": [
+    [
+      800,
+      360
+    ],
+    [
+      3000,
+      420
+    ],
+    [
+      5100,
+      540
+    ]
+  ],
+  "anomaly_event_count": 20,
+  "anomaly_rows": 1888,
+  "anomaly_types": {
+    "normal": 5312,
+    "silent_drift": 1715,
+    "dropout": 122,
+    "spike": 51
+  },
+  "db_readings": 21600
+}
